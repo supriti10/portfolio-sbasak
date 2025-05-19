@@ -1,8 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: 'export',
+  basePath: '/portfolio-sbasak',  
+
   eslint: {
-    // This will allow the build to succeed even if there are ESLint errors
     ignoreDuringBuilds: true,
   },
 };
