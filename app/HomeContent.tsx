@@ -2,14 +2,12 @@
 
 import dynamic from 'next/dynamic';
 import Hero from '@/components/Hero';
-import Grid from '@/components/Grid';
 import Footer from '@/components/Footer';
 import { FloatingNav } from '@/components/ui/FloatingNav';
 import { navItems } from '@/data';
 
-const RecentProjects = dynamic(() => import('@/components/RecentProjects'), {
-  ssr: false,
-});
+const Grid = dynamic(() => import('@/components/Grid'), { ssr: false });
+const RecentProjects = dynamic(() => import('@/components/RecentProjects'), { ssr: false });
 
 const HomeContent = () => {
   return (
