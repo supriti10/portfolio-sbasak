@@ -2,11 +2,15 @@
   "name": "portfolio-sbasak",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://supriti10.github.io/portfolio-sbasak",
+
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@lottiefiles/react-lottie-player": "^3.6.0",
@@ -37,6 +41,7 @@
     "@types/react-lottie": "^1.2.10",
     "eslint": "^9",
     "eslint-config-next": "15.3.2",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
