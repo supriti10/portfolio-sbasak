@@ -17,7 +17,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Adaptable to diverse time zones and capable of syncing with international team schedules seamlessly.",
+      title: "Adaptable to diverse time zones.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -37,7 +37,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Part tech explorer, part code wizard — I'm on a mission to turn caffeine and creativity into magic pixels and flawless features, one quirky bug fix at a time.",
+      title: "☕ Fueled by caffeine, 🤖 coding magic & 🐛 bug-squashing, turning ideas into ✨ pixels!",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -73,19 +73,25 @@ export const navItems = [
       id: 1,
       title: "Stock Price Prediction Model",
       des: "An SFM Model to predict the stock's opening price for the next day.",
-      img: "/proj1.jpg",
+      img: "/proj1.jpg"
     },
     {
       id: 2,
       title: "AI-Powered Space Defense Game",
       des: "An AI-based game which learns and improves its defense strategies.",
-      img: "/proj2.jpg",
+      img: "/proj2.jpg"
     },
     {
       id: 3,
       title: "Weather Website",
       des: "Display temperature, humidity and wind speed.",
       img: "/proj3.jpg",
+    },
+    {
+      id: 4,
+      title: "Travel Landing Page",
+      des: "A clean and responsive travel landing page featuring curated experiences.",
+      img: "/proj4.jpg"
     },
   ];
     
