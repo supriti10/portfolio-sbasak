@@ -1,13 +1,12 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import {
   motion,
   AnimatePresence,
-  useScroll,
-  useMotionValueEvent,
-} from "framer-motion"; // ✅ Fix: correct import from "framer-motion"
+} from "framer-motion";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import { useScrollVisibility } from "@/components/hooks/useScrollVisibility";
 
 type NavItem = {
   name: string;
@@ -22,21 +21,8 @@ export const FloatingNav = ({
   navItems: NavItem[];
   className?: string;
 }) => {
-  const { scrollYProgress } = useScroll();
-  const [visible, setVisible] = useState(true);
-
-  useMotionValueEvent(scrollYProgress, "change", (current) => {
-    if (typeof current === "number") {
-      const previous = scrollYProgress.getPrevious();
-      const direction = current - (previous ?? 0); // ✅ use const
-
-      if (scrollYProgress.get() < 0.05) {
-        setVisible(true);
-      } else {
-        setVisible(direction < 0);
-      }
-    }
-  });
+  
+ const visible = useScrollVisibility();
 
   return (
     <AnimatePresence mode="wait">
@@ -49,7 +35,7 @@ export const FloatingNav = ({
           className
         )}
         style={{
-          backdropFilter: "blur(16px) saturate(180%)", // ✅ fix syntax: no space between function and argument
+          backdropFilter: "blur(16px) saturate(180%)", 
           backgroundColor: "rgba(17, 25, 40, 0.75)",
           borderRadius: "12px",
           border: "1px solid rgba(255, 255, 255, 0.125)",
@@ -71,3 +57,5 @@ export const FloatingNav = ({
     </AnimatePresence>
   );
 };
+
+

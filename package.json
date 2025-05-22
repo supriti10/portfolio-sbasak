@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://supriti10.github.io/portfolio-sbasak",
-
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -17,6 +16,7 @@
     "@tabler/icons-react": "^3.33.0",
     "clsx": "^2.1.1",
     "lottie-react": "^2.4.1",
+    "lucide-react": "^0.511.0",
     "mini-svg-data-uri": "^1.4.4",
     "motion": "^12.12.1",
     "next": "15.3.2",
