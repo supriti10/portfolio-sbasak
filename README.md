@@ -11,7 +11,6 @@ Welcome to my personal portfolio website, a sleek, responsive, and fast web expe
 - 🧑‍💻 A showcase of my **projects**, **skills**, and **background**
 - 📱 Fully **responsive design** for all devices
 - ⚡️ Built with performance and accessibility in mind
-- 🌙 Light/Dark mode support for better UX
 
 ---
 
