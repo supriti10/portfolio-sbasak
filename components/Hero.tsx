@@ -1,7 +1,7 @@
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { cn } from '@/lib/utils'
-import { TextGenerateEffect } from './ui/TextGenerateEffect'
+//import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa'
 
@@ -37,10 +37,10 @@ const Hero = () => {
                         />
                     </h1>
 
-                    <TextGenerateEffect 
+                    {/* <TextGenerateEffect 
                         className='text-white my-8 md:tracking-wider font-semibold animate-bounce text-xl md:text-lg'
                         words="Hi, I'm Supriti Basak, a web developer and UI/UX designer."
-                    />
+                    /> */}
 
                     <a href='#about'>
                         <MagicButton 
