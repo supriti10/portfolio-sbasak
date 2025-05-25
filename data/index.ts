@@ -73,25 +73,29 @@ export const navItems = [
       id: 1,
       title: "Stock Price Prediction Model",
       des: "An SFM Model to predict the stock's opening price for the next day.",
-      img: "/proj1.jpg"
+      img: "/proj1.jpg",
+      link: "https://github.com/ProgyaBhattachrjee/Stock-Market-prediction.git"
     },
     {
       id: 2,
       title: "AI-Powered Space Defense Game",
       des: "An AI-based game which learns and improves its defense strategies.",
-      img: "/proj2.jpg"
+      img: "/proj2.jpg",
+      link: "https://github.com/supriti10/Space-Defense-Game.git"
     },
     {
       id: 3,
       title: "Weather Website",
       des: "Display temperature, humidity and wind speed.",
       img: "/proj3.jpg",
+      link: "https://weather-seven-dun-62.vercel.app/"
     },
     {
       id: 4,
       title: "Travel Landing Page",
       des: "A clean and responsive travel landing page featuring curated experiences.",
-      img: "/proj4.jpg"
+      img: "/proj4.jpg",
+      link: "https://landing-page-beige-tau-38.vercel.app/"
     },
   ];
     
