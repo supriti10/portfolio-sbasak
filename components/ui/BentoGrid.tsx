@@ -97,6 +97,7 @@ export const BentoGridItem = ({
             />
           )}
         </div>
+        
         {id === 6 && (
           <BackgroundGradientAnimation>
             <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
@@ -121,7 +122,7 @@ export const BentoGridItem = ({
 
           {id === 2 && <GlobeDemo />}
 
-          {id === 3 && (
+          {id === 5 && (
             <div className='flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2'>
                <div className='flex flex-col gap-3 lg:gap-6'>
                 {['React.js', 'Next.js', 'TypeScript'].map(item => (
@@ -129,10 +130,10 @@ export const BentoGridItem = ({
                      {item}
                    </span>
                  ))}
-                <span className='py-4 px-3 rounded-lg text-center bg-blue-300' />
+                <span className='py-4 px-3 rounded-lg text-center bg-purple-300' />
               </div>
               <div className='flex flex-col gap-3 lg:gap-6'>
-                 <span className='py-4 px-3 rounded-lg text-center bg-blue-300' />
+                 <span className='py-4 px-3 rounded-lg text-center bg-purple-300' />
                 {['HTML', 'CSS', 'JavaScript'].map(item => (
                   <span key={item} className='py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-purple-300'>
                     {item}
@@ -145,7 +146,7 @@ export const BentoGridItem = ({
                     {item}
                   </span>
                 ))}
-                <span className='py-4 px-3 rounded-lg text-center bg-blue-300' />
+                <span className='py-4 px-3 rounded-lg text-center bg-purple-300' />
               </div>
             </div>
           )}

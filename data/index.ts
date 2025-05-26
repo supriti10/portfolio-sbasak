@@ -27,34 +27,34 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "My tech stack",
-      description: "I constantly try to improve",
+      title: "Currently, working on an optimization problem",
+      description: "The Inside Scoop",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
-      titleClassName: "justify-center",
-      img: "",
+      titleClassName: "justify-end items-end",
+      img: "/b4.svg",
       spareImg: "",
     },
     {
       id: 4,
-      title: "☕ Fueled by caffeine, 🤖 coding magic & 🐛 bug-squashing, turning ideas into ✨ pixels!",
+      title: "Craft. Code. Create.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
-      img: "/grid.svg",
-      spareImg: "/b4.svg",
+      img: "/b5.svg",
+      spareImg: "",
     },
   
     {
       id: 5,
-      title: "Currently building an Intelligent Customer Support Chatbot",
-      description: "The Inside Scoop",
+      title: "My tech stack",
+      description: "I constantly try to improve",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/b5.svg",
-      spareImg: "/grid.svg",
+      img: "",
+      spareImg: "",
     },
     {
       id: 6,
@@ -107,12 +107,17 @@ export const navItems = [
     },
     {
       id: 2,
-      img: "/X.svg",
+      img: "/X.png",
       link: "https://x.com/basak_supriti1"
     },
     {
       id: 3,
       img: "/link.svg",
       link: "https://www.linkedin.com/in/supriti-basak-7bb461251/"
+    },
+    {
+      id: 4,
+      img: "/insta.png",
+      link: "https://www.instagram.com/__.fleur_lovin.__/?hl=en"
     },
   ];
