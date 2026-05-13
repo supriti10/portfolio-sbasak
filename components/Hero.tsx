@@ -26,7 +26,7 @@ const Hero = () => {
                 <div className='text-center z-10 max-w-5xl'>
                     <h1 className='text-5xl sm:text-6xl md:text-7xl font-extrabold text-white leading-tight mb-4'>
                         Building sleek designs and <br />
-                        <span className='text-purple-200 font-bold text-5xl animate-pulse'>
+                        <span className='text-purple-300 font-bold text-5xl animate-pulse'>
                             creating smart solutions
                         </span>
                         <img 

@@ -1,13 +1,13 @@
 'use client';
 
 import { useState } from "react";
-import { IoCopyOutline } from "react-icons/io5";
 import Lottie from 'react-lottie';
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
+import { FaLocationArrow } from 'react-icons/fa'
 
 export const BentoGrid = ({
   className,
@@ -67,7 +67,7 @@ export const BentoGridItem = ({
   return (
     <div
       className={cn(
-        "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
+        "row-span-1 relative overflow-hidden rounded-3xl border border-white/10 group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
         className
       )}
       style={{
@@ -160,13 +160,13 @@ export const BentoGridItem = ({
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
 
-              <MagicButton
-                title={copied ? "Email is Copied!" : "Copy my email address"}
-                icon={<IoCopyOutline />}
-                position="left"
-                handleClick={handleCopy}
-                otherClasses="!bg-[#161A31]"
-              />
+              <a href='mailto:network.sbasak@gmail.com'>
+                <MagicButton
+                    title="Let's get in touch"
+                    icon={<FaLocationArrow/>}
+                    position='right'
+                />
+            </a>
             </div>
           )}
         </div>

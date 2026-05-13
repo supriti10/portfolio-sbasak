@@ -1,6 +1,8 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
+    { name: "Experience", link: "#experience" },
+    { name: "Testimonials", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -71,27 +73,41 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "Grievix AI",
+      des: "An intelligent grievance management system that automates complaint classification and routing using NLP, ensuring faster and more accurate resolution.",
+      img: "/proj5.png",
+      link: "https://github.com/supriti10/ai-complaint-routing-system.git"
+    },
+    {
+      id: 2,
+      title: "AI Code Generator",
+      des: "A generative AI-powered tool that assists developers by generating, explaining, and debugging code from natural language prompts.",
+      img: "/proj6.png",
+      link: "https://ai-code-generator-s10.streamlit.app/"
+    },
+    {
+      id: 3,
       title: "Stock Price Prediction Model",
       des: "An SFM Model to predict the stock's opening price for the next day.",
       img: "/proj1.jpg",
       link: "https://github.com/ProgyaBhattachrjee/Stock-Market-prediction.git"
     },
     {
-      id: 2,
+      id: 4,
       title: "AI-Powered Space Defense Game",
       des: "An AI-based game which learns and improves its defense strategies.",
       img: "/proj2.jpg",
       link: "https://github.com/supriti10/Space-Defense-Game.git"
     },
     {
-      id: 3,
+      id: 5,
       title: "Weather Website",
       des: "Display temperature, humidity and wind speed.",
       img: "/proj3.jpg",
       link: "https://weather-seven-dun-62.vercel.app/"
     },
     {
-      id: 4,
+      id: 6,
       title: "Travel Landing Page",
       des: "A clean and responsive travel landing page featuring curated experiences.",
       img: "/proj4.jpg",
@@ -121,3 +137,38 @@ export const navItems = [
       link: "https://www.instagram.com/__.fleur_lovin.__/?hl=en"
     },
   ];
+
+  export const testimonials = [
+    {
+      quote:
+        "Supriti is a highly skilled and dedicated software developer. Her ability to quickly grasp complex concepts and deliver high-quality code is impressive. She consistently goes above and beyond to ensure project success, making her an invaluable asset to any team.",
+      name: "Satyaki Maiti",
+      title: "Former Trainee at Capgemini",
+      profile: "/profile1.jpg"
+    },
+    {
+      quote:
+        "Working with Supriti was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Supriti's enthusiasm for every facet of development truly stands out.",
+      name: "Amisha Joshi",
+      title: "Former TDP Intern at Optum",
+      profile: "/profile2.svg"
+    },
+    {
+      quote:
+        "Supriti is a talented and hardworking individual who consistently delivers high-quality work. Her ability to quickly learn new technologies and adapt to changing project requirements is impressive. She is a great team player and always willing to go the extra mile to ensure project success.",
+      name: "Animikha Basak",
+      title: "Intern at Infosys",
+      profile: "/profile3.png"
+    },
+  ]
+
+  export const workExperience = [
+    {
+      id: 1,
+      title: "Technology Development Intern",
+      desc: "Worked on manual remediation of vulnerabilities in 200+ repositories. Developed a Python script to automate the remediation process, reducing manual effort by 80% and improving efficiency. Built a prediction as well as a suggestion model to predict the time limit and chances of escalation and for suggesting transitve dependency for parent upgrades as well as checking their compatibility.",
+      className: "md:col-span-2",
+      thumbnail: "/optum-logo.png",
+      duration: 'June 2025 - August 2025',
+    }
+  ]
