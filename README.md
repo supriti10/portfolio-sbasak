@@ -37,11 +37,12 @@ This portfolio showcases my projects, technical skills, work experience, and con
 ## Deployment
 - Vercel
 
-# 🔧Future Improvements
+# 🔧 Future Improvements
 
 - Dark/Light mode toggle
 - Blog integration
 - CMS support
 - Multi-language support
 - Performance optimizations
+
 ---
