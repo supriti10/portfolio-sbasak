@@ -1,24 +1,47 @@
-# 🌐 Supriti Basak's Portfolio
+# 🚀 Personal Portfolio Website
 
-Welcome to my personal portfolio website, a sleek, responsive, and fast web experience built using Next.js and Tailwind CSS.
+A modern and interactive developer portfolio built using React(NextJS), Tailwind CSS, Framer Motion, and modern UI components.  
+This portfolio showcases my projects, technical skills, work experience, and contact information in a visually engaging and responsive design.
 
-🚀 **Live Site**: [portfolio-sbasak.vercel.app](https://portfolio-sbasak.vercel.app/)
-
----
-
-## ✨ What’s Inside?
-
-- 🧑‍💻 A showcase of my **projects**, **skills**, and **background**
-- 📱 Fully **responsive design** for all devices
-- ⚡️ Built with performance and accessibility in mind
+🌐 Live Demo: https://portfolio-sbasak.vercel.app/
 
 ---
 
-## 🛠️ Tech Stack
+# ✨ Features
 
-- **Framework**: [Next.js](https://nextjs.org/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Deployment**: [Vercel](https://vercel.com/)
-- **Animations**: Framer Motion 
+- Modern animated UI
+- Responsive design for all devices
+- Interactive project showcase
+- Work experience timeline
+- Smooth scrolling sections
+- Reusable components
+- Tailwind CSS styling
+- Framer Motion animations
+- Optimized deployment on Vercel
 
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+- Next.js
+- Tailwind CSS
+- JavaScript
+- Framer Motion
+
+## UI & Design
+- Aceternity UI
+- Custom animations
+- Responsive layouts
+
+## Deployment
+- Vercel
+
+🔧 Future Improvements
+
+Dark/Light mode toggle
+Blog integration
+CMS support
+Multi-language support
+Performance optimizations
 ---
